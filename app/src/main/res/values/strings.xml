@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lets Cook</string>
+    <string-array name="saison">
+        <item>- Keine -</item>
+        <item>Frühling</item>
+        <item>Sommer</item>
+        <item>Herbst</item>
+        <item>Winter</item>
+
+    </string-array>
+</resources>

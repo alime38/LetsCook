@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/layout1"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Hier die passenden Rezepte."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            android:layout_weight="0.47"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/layout2">
+
+        <TextView
+            android:text="Such dir was aus!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_weight="1.00"
+        android:id="@+id/layout3"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:id="@+id/layout4">
+
+        <Button
+            android:text="ZURÜCK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zurueck" />
+
+        <Button
+            android:text="WEITER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weiter" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.beispiel.letscook.Activity2">
+
+    <Button
+        android:text="zurück"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zurueck"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="99dp" />
+
+    <Button
+        android:text="WEITER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/zurueck"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/weiter" />
+
+    <TextView
+        android:text="Wähle eine Kategorie aus!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/frage1"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark" />
+
+    <CheckBox
+        android:text="Vorspeisen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frage1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/vorspeisen"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:text="Hauptspeisen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/hauptspeisen"
+        android:textSize="18sp"
+        android:layout_below="@+id/vorspeisen"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Nachspeisen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/nachspeisen"
+        android:textSize="18sp"
+        android:layout_below="@+id/hauptspeisen"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
